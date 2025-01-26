@@ -9,5 +9,5 @@ btn.addEventListener('click', ()=>{
 	const name = nameField.value.trim();
 	const year = yearField.value;
 
-	headingUrl.textContent = `https://localhost:8080/?name=${name}&year=${year}`
+	headingUrl.textContent = `https://localhost:8080/?name=${name}&year=${}`
 })
